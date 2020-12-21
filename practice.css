@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    height: auto;
+    background: #ebd7a1e1;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.jumbotron{
+    margin: auto;
+    padding-block: 20%;
+    background-image: url(image/kofeecover.jpg);
+    background-size: 50%;
+}
+
+
+.namebrand{
+    font-size: x-large;
+    font-weight: 500;
+    color: rgb(75, 32, 2);
+}
+.nav-link:hover{
+    background-color: rgb(75, 32, 2);
+}
+
+#menuu{
+    background: #f1e6a5; display:inline-flexbox;
+}
+#menuu :hover{
+    background-color: rgb(236, 171, 65);
+}
+
+.card-note{
+    color: rgb(93, 42, 5);
+    display: flex;
+    align-items: center;
+    
+}
+
+.footer{
+    height: auto;
+    width: 100;
+    border-top: 2px solid #000;
+    display: flex;
+    background-color: wheat;
+
+}
+
+img{
+    margin: 20px;
+
+}
+
+#btn{
+    background-color: tan;
+}
